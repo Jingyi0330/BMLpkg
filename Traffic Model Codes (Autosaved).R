@@ -278,7 +278,11 @@ one.up = function(vec){
 	out$vec
 }
 
-
+two.zero.and.more = function(vec){
+	vec_len = length(vec)
+	out <- .C("twoZeroAndMore", vec = as.integer(vec), vec_len = as.integer(vec_len))
+	out$vec
+}
 
 
 
