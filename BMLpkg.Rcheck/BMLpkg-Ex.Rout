@@ -1,0 +1,192 @@
+
+R version 2.14.1 (2011-12-22)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-apple-darwin9.8.0/x86_64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "BMLpkg"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('BMLpkg')
+> 
+> assign(".oldSearch", search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("Blue")
+> ### * Blue
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: Blue
+> ### Title: Blue Car Moves
+> ### Aliases: Blue
+> ### Keywords: blue ~kwd2
+> 
+> ### ** Examples
+> 
+> ##---- Should be DIRECTLY executable !! ----
+> ##-- ==>  Define data, use random,
+> ##--	or do  help(data=index)  for the standard data sets.
+> 
+> ## The function is currently defined as
+> function (matrix) 
++ {
++     rightDirection = turn.mat.90left(matrix)
++     rightDirection
++     moved.up = oneUp.matrix(rightDirection)
++     rotBack = turn.back.90right(moved.up)
++     return(rotBack)
++   }
+function (matrix) 
+{
+    rightDirection = turn.mat.90left(matrix)
+    rightDirection
+    moved.up = oneUp.matrix(rightDirection)
+    rotBack = turn.back.90right(moved.up)
+    return(rotBack)
+}
+> 
+> 
+> 
+> cleanEx()
+> nameEx("Drive")
+> ### * Drive
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: Drive
+> ### Title: All Car Moves
+> ### Aliases: Drive
+> ### Keywords: BML ~kwd2
+> 
+> ### ** Examples
+> 
+> Drive(50, 80, 90, 0.7)
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+> 
+> 
+> 
+> cleanEx()
+> nameEx("Red")
+> ### * Red
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: Red
+> ### Title: Red Car Moves
+> ### Aliases: Red
+> ### Keywords: red ~kwd2
+> 
+> ### ** Examples
+> 
+> ##---- Should be DIRECTLY executable !! ----
+> ##-- ==>  Define data, use random,
+> ##--	or do  help(data=index)  for the standard data sets.
+> 
+> ## The function is currently defined as
+> function (matrix) 
++ {
++     changed.num.ratBack = swap(matrix)
++     changed.num.ratBack
++     Ready2Up = Turn2(changed.num.ratBack)
++     Ready2Up
++     Moved.right = oneUp.matrix(Ready2Up)
++     Moved.right
++     Origin.Dir = TurnBack2(Moved.right)
++     Origin.Dir
++     ready2plot = swap(Origin.Dir)
++     return(ready2plot)
++   }
+function (matrix) 
+{
+    changed.num.ratBack = swap(matrix)
+    changed.num.ratBack
+    Ready2Up = Turn2(changed.num.ratBack)
+    Ready2Up
+    Moved.right = oneUp.matrix(Ready2Up)
+    Moved.right
+    Origin.Dir = TurnBack2(Moved.right)
+    Origin.Dir
+    ready2plot = swap(Origin.Dir)
+    return(ready2plot)
+}
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  7.684 0.105 7.838 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

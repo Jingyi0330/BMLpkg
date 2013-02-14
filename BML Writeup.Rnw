@@ -1,0 +1,118 @@
+\documentclass[12pt, oneside]{article}   	
+\usepackage{geometry}                		
+\geometry{letterpaper}                   		
+\usepackage{graphicx}				
+\usepackage{amssymb}
+\usepackage[document]{ragged2e}
+
+\title{Biham-Middleton-Levine Traffic Model}
+\author{Shuhua Liang}
+\date{February 2, 2013}							
+
+\begin{document}
+\maketitle
+
+The Biham-Middleton-Levine (BML) Traffic Model mimics the movements of cars and traffic jams by simulating blue and red grids -used to represent two types of cars -  on a rectangular plane. On that plane, blue cars can only move up by one grid at each time point, and red cars can only move to the right by one grid. If a car is blocked by one of the opposite color, it will have to skip a move at that particular time point. Also, when a car is at the edge of the plane, it will wrap around the plane and start the moving process again from the other end of the plane. 
+
+\vspace{3mm}
+
+Given different dimensions of the plane and different proportions of grid to fill, the movement of cars will vary, and as the proportion of cars increase, the cars will jam and cluster. Below are five figures that illustrates the traffic situation at different time points. 
+
+\vspace{3mm}
+
+\begin{centering}
+ \includegraphics[width=75mm]{Lay1.png}\\
+Figure 1: time = 0, $\rho = 0.3$
+\vspace{3mm}
+
+\includegraphics[width=75mm]{Lay2.png}\\
+Figure 2: time = 50, $\rho = 0.3$
+\vspace{3mm}
+
+\includegraphics[width=75mm]{Lay3.png}\\
+\centerline{ Figure 3: time = 100, $\rho = 0.3$}
+\vspace{3mm}
+
+\includegraphics[width=75mm]{Lay4.png}\\
+\centerline{ Figure 4: time = 150, $\rho = 0.3$}
+\vspace{3mm}
+
+\includegraphics[width=75mm]{Lay5.png}\\
+\centerline{ Figure 5: time = 200, $\rho = 0.3$}
+\vspace{3mm}
+\end{centering}
+
+In the example, the plane has dimension 130 by 130 and 30\% of the grids are filled with cars. When time equals 0, data is generated randomly with the given information; it is the originals state where no cars are moved. At time one (not shown), unblocked blue cars will all moved up by one grid, and then at time two, the unblocked red cars will move to the right by one grid. This pattern will continue on for a given number of time periods. The first plane shows the model at time zero, where all the cars are scattered. At time 50 (Figure 2), cars start to block each other, and more white spaces show. Compared to the first two figure, Figure 3 shows that the cars gather diagonally. Then at time 150 and 200, cars start to cluster, and the spread of cars did not change much. 
+
+\vspace{3mm}
+
+At each time point, the number of cars moved or unmoved can be calculated, and they explained by the following plots. 
+
+\vspace{3mm}
+
+\begin{centering}
+\includegraphics[width=75mm]{Moved.png}\\
+\centerline{Figure 6: Number of Cars Moved}
+\vspace{3mm}
+
+\includegraphics[width=75mm]{Unmoved.png}\\
+\centerline{Figure 7: Number of Cars Unmoved}
+\vspace{3mm}
+\end{centering}
+
+\vspace{3mm}
+
+In the beginning, most cars are able to move. Figure 6 shows that out of 9000 cars in the plane of 30000 grids, almost 3500 blue cars moved at time 1. As time increases, the number of cars moved decreases. At time 200, less than 500 cars were able to move. On the other hand, Figure 7 shows the count of cars that are not moved, and it shows an exactly opposite story than FIgure 6. As time goes, the number of cars unmoved decreased. In conclusion, the traffic jam gets more serious as time increases, and cars cluster if they are only limited to a certain aera. 
+
+\vspace{3mm}
+
+In a different example of the same size plane but 70\% of girds filled, the cars will stop at an earlier time period (See Figures 8-10). Compare the first plane at time zero with $\rho = 0.3$ to the first plane where $\rho = 0.7$, the latter plane is much more crowded. Also, when $\rho = 0.7$, the cars stop moving at time 30, which can easily see that the planes for time 30 and time 50 are almost identical. 
+
+\vspace{3mm}
+
+\begin{centering}
+\includegraphics[width=75mm]{Lay70-1.png}\\
+\centerline{Figure 8: time = 0, $\rho = 0.7$}
+\vspace{3mm}
+
+\includegraphics[width=75mm]{Lay70-2.png}\\
+\centerline{Figure 9: time = 30, $\rho = 0.7$}
+\vspace{3mm}
+
+\includegraphics[width=75mm]{Lay70-3.png}\\
+\centerline{Figure 10: time = 50, $\rho = 0.7$}
+\vspace{3mm}
+\end{centering}
+
+\vspace{3mm}
+
+The plots below shows an exponential distribution for the count of car moves, and these plot are smoother compared to the ones for $\rho = 0.3$ because there are much smaller spaces for cars to more in a denser plane. 
+
+\includegraphics[width = 160mm]{rho70.png}
+
+\vspace{3mm}
+
+One way to present the Biham-Middleton-Levine Traffic Model is to generate a plane of grids and record its changes at each time point. Then one can convert those planes into a .gif file and see the movements of cars in  a sequence (GIF file attached in e-mail). 
+
+\vspace{3mm}
+
+Lastly, the functions that are used to calculate and mimic this process are converted to an R package called BMLpkg (also attached in e-mail). This allows users to simply install the package, apply the functions to any given information, and observe the changes in BML model. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

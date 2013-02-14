@@ -1,0 +1,1220 @@
+table(gen)
+113+28+27
+168*.15
+unique(gen)
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c(1-rho, red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=("white","red","blue")[sort(unique(gen))])#
+}
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rh)o, red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=("white","red","blue")[sort(unique(gen))])#
+}
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rh)o, red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=("white","red","blue")[sort(unique(gen))])#
+}
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rh), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=("white","red","blue")[sort(unique(gen))])#
+}
+matrix(gen, nrow=ver.grids, ncol=hor.grids)
+plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=("white","red","blue")[sort(unique(gen))])
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rh), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=c("white","red","blue")[sort(unique(gen))])#
+}
+gen.cars(12,17,.3)
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=c("white","red","blue")[sort(unique(gen))])#
+}
+gen.cars(12,17,.3)
+[sort(unique(gen))]
+sort(unique(gen))
+plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=c("white","red","blue")[sort(unique(gen))])
+gen
+image(plane, col=c("white","red","blue")[sort(unique(gen))])
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=c("white","red","blue"))#
+}
+gen.cars(12,17,.3)
+gen.cars(120,170,.3)
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	image(plane, col=c("white","red","blue"),axes=FALSE)#
+}
+gen.cars(120,170,.3)
+gen.cars(1220,1370,.3)
+gen.cars(120,170,.3)
+gen.cars(120,170,.1)
+gen.cars(120,170,.7)
+gen.cars(120,170,.5)
+gen.cars(120,170,.3)
+gen.cars(12,17,.3)
+gen.cars(80,70,.3)
+for (i in 1:5) {#
+  jpeg("/tmp/foo%02d.jpg")#
+  my.plot(i)#
+}#
+dev.off()
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	print(plane)#
+	image(plane, col=c("white","red","blue"),axes=FALSE)#
+}
+gen.cars(80,70,.3)
+gen.cars(10,10,.2)
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	print(plane)#
+}
+gen.cars(10,10,.2)
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	print(plane)#
+}#
+#
+plane.image = function(gen.cars){#
+	plane = gen.cars#
+	image(plane, col=c("white","red","blue"),axes=FALSE)#
+}
+plane.image(gen.cars(10,10,.2))
+t(gen.cars(10,10,.2))
+try = gen.cars(10,11,.3)
+plane.image(try)
+t(try)
+apply(t(try),1,rev)
+try
+set.seed(23)#
+try = gen.cars(10,11,.3)#
+plane.image(try)
+try
+apply(t(try),1,rev)
+t(try)
+try
+t(try)
+apply(try,1,rev)
+good.mat = apply(try,1,rev)
+good.mat
+which(good.mat == 2)
+good.mat==1
+good.mat
+try
+plane.image(try)
+unlist(good.mat)
+list(good.mat)
+as.list(good.mat)
+good.mat
+str(good.mat)
+as.vector(good.mat)
+as.vector(t(good.mat))
+blue.case = as.vector(good.mat)
+red.case = as.vector(t(good.mat))
+cbind(blue.case,red.case)
+positions = cbind(blue.case,red.case)
+positions[1:10,]
+good.mat
+positions[1:12,]
+x <- 1:10#
+swap <- function(x){#
+a <- sample(x,2)#
+   x[x==a[1]] <- swap[2]#
+   x[x==a[2]] <- swap[1]#
+   return(x)#
+  }#
+  swap(swap(swap(x))) -> mix
+positions[1:12,]
+good.mat
+good.mat = apply(try,1,rev); good.mat
+positions[1:20,]
+swap.blue = function(index, vector){#
+	vector[index] <- 0#
+	vector[index-1] <- 2#
+	#
+}
+swap.blue(blue.case)
+swap.blue(6,blue.case)
+blue.case[1:10]
+swap.blue(6,blue.case)[1:10]
+blue.case
+set.seed(23)#
+try = gen.cars(10,11,.3)#
+plane.image(try)#
+good.mat = apply(try,1,rev); good.mat#
+#
+blue.case = as.vector(good.mat)#
+red.case = as.vector(t(good.mat))#
+positions = cbind(blue.case,red.case)
+blue.case[1:10]
+swap.blue(6,blue.case)
+blue.case[1:10]
+blue.case[6]
+swap.blue = function(index, vector){#
+	vector[index] <- 0#
+	vector[index-1] <- 2#
+	return(vector)#
+}
+swap.blue(6,blue.case)
+blue.case[1:10]
+swap.red = function(index, vector){#
+	vector[index] <- 0#
+	vector[index+1] <- 1#
+	return(vector)#
+}
+positions
+blue.case
+swap.blue(c(6,9),blue.case)
+positions[1:13,]
+sapply(1:length(blue.case), function(i) which(blue.case[i]==2 && blue.case[i-1]==0))
+sapply(1:length(blue.case), function(i) which(blue.case[i]==2 & blue.case[i-1]==0))
+blue.case
+which(blue.case==2)
+blue.case[which(blue.case==2)-1 == 1]
+blue.case[(which(blue.case==2)-1) == 1]
+blue.case[(which(blue.case==2)-1)] == 1
+which(blue.case==2)-1
+cbind(blue.case[(which(blue.case==2)-1)] == 1, which(blue.case==2)-1)
+data.frame(blue.case[(which(blue.case==2)-1)] == 1, which(blue.case==2)-1)
+move.i.blue = data.frame(blue.case[(which(blue.case==2)-1)] == 1, which(blue.case==2)-1)
+names(move.i.blue) <- c("T=No.move","index.less1")
+move.i.blue
+move.i.blue[['index.less1']][which(move.i.blue[['T=No.move']]==FALSE)]
+t.1.b.ind.vect = move.i.blue[['index.less1']][which(move.i.blue[['T=No.move']]==FALSE)]
+blue.case
+swap.blue(t.1.b.ind.vect,blue.case)
+move.i.blue = data.frame(blue.case[(which(blue.case==2)-1)] == 1, which(blue.case==2))
+names(move.i.blue) <- c("T=No.move","index.move")
+t.1.b.ind.vect = move.i.blue[['index.less1']][which(move.i.blue[['T=No.move']]==FALSE)]
+blue.case
+swap.blue(t.1.b.ind.vect,blue.case)
+t.1.b.ind.vect = move.i.blue[['index.move']][which(move.i.blue[['T=No.move']]==FALSE)]
+blue.case
+swap.blue(t.1.b.ind.vect,blue.case)
+good.mat
+matrix(swap.blue(t.1.b.ind.vect,blue.case),10,11)
+data.frame(good.mat)
+good.mat.frame = data.frame(good.mat)
+image(good.mat.frame)
+as.matrix(good.mat.frame)
+image(as.matrix(good.mat.frame))
+plane.image(as.matrix(good.mat.frame))
+plane.try
+plane.image(try)
+good.mat
+sapply(1:length(good.mat.frame), function(i) which(good.mat.frame[i] == 2))
+lapply(1:length(good.mat.frame), function(i) which(good.mat.frame[i] == 2))
+good.mat.frame
+lapply(1:length(good.mat.frame), function(i) which(good.mat.frame[i]-1 == 0))
+lapply(1:length(good.mat.frame), function(i) which(good.mat.frame[i]-1) == 0)
+lapply(1:length(good.mat.frame), function(i) (good.mat.frame[i]-1) == 0)
+lapply(1:length(good.mat.frame), function(i) good.mat.frame[which(good.mat.frame[i]-1)] == 0)
+lapply(1:length(good.mat.frame), function(i) good.mat.frame[i][which(good.mat.frame[i]-1)] == 0)
+good.mat.frame[1]
+good.mat.frame[1][which(good.mat.frame[1]==2)-1] == 0
+which(good.mat.frame[1]==2)
+which(good.mat.frame[1]==2)-1
+good.mat.frame[1][which(good.mat.frame[1]==2)-1]
+good.mat.frame[1][(which(good.mat.frame[1]==2)-1)]
+good.mat.frame[1]
+(which(good.mat.frame[1]==2)-1)
+good.mat.frame[1][2]
+good.mat.frame[1][[2]]
+good.mat.frame[[1]][2]
+good.mat.frame[[1]][which(good.mat.frame[1]==2)-1]
+i
+lapply(1:length(good.mat.frame), function(i) good.mat.frame[[i]][which(good.mat.frame[i]-1)] == 0)
+lapply(1:length(good.mat.frame), function(i) good.mat.frame[[i]][which(good.mat.frame[i] == 2)] == 0)
+lapply(1:length(good.mat.frame), function(i) good.mat.frame[[i]][which(good.mat.frame[i] == 2)-1] == 0)
+## http://arxiv.org/pdf/0709.3604v3.pdf#
+## http://mae.ucdavis.edu/dsouza/bml.html#
+#
+## http://www.personality-project.org/R/makingpackages.html#
+#
+## Set.seed() before applying functions!!!!#
+#
+## Blue up, t = 1,3,... (Move first!)#
+## Red right, t = 2,4,...#
+#
+options(error = recover)#
+library(grDevices)#
+#
+## Move Up (blue):#
+#####################################################################################
+## Generate the number of blue and red cars, then to them in a plane:#
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+	print(plane)#
+}#
+#
+#class(x) = "grid"#
+plot.BML = function(x,...){#
+	image(x, col=c("white","red","blue"),axes=FALSE)#
+}#
+	## try: gen.cars(120,170,.3)#
+	## 2 -> Blue, 1 -> Red#
+#
+## Adjust directions, so matrix follows the direction of the plane:#
+turn.mat.90left = function(gen.cars){#
+	apply(gen.cars,1,rev)#
+}#
+#
+turn.back.90right = function(mat){#
+	list.back = tapply(mat,rep(1:ncol(mat),each=nrow(mat)),function(i)i)#
+	revert = lapply(list.back,rev)#
+	matrix(unlist(revert),byrow = TRUE,nrow=length(revert))#
+}#
+## For partial vectors, move up one and make the last one zero:#
+one.up = function(vec){#
+	if(length(vec) <= 1) return(vec)#
+	else c(vec[2:length(vec)],0)#
+}#
+#
+## Use when have a partial vector that comes after a 1:#
+two.zero.and.more = function(part){#
+	if(all(part==2) || length(part) <= 1) return(part)#
+	else {#
+		first.zero = min(which(part == 0))#
+		part[first.zero:length(part)] = one.up(part[first.zero:length(part)])#
+		return(part)#
+	}#
+}#
+#
+## Rotate the entire vector by one element up:#
+rot <- function(x) (1:x %% x) +1#
+rotvec <- function(vec){vec[rot(length(vec))]} #
+#
+## Operate the sequence in between two ones:#
+run.two = function(vec, ones){#
+	for(i in 1:(length(ones)-1)){#
+		if(0 %in% vec[(ones[i]):(ones[i+1])]){#
+			vec[(ones[i]+1):(ones[i+1]-1)] = two.zero.and.more(vec[(ones[i]+1):(ones[i+1]-1)])}#
+	}#
+	return(vec)#
+}#
+#
+### Move up function when there is more than one 1:#
+move.up.more1 <- function(vec){#
+	ones = which(vec==1)#
+	if(vec[1]==1 && vec[length(vec)]==1){#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	if(vec[1]==1 && vec[length(vec)]!=1){#
+		vec[(ones[length(ones)]+1):(length(vec))] = two.zero.and.more(vec[(ones[length(ones)]+1):(length(vec))])#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	if(vec[1]!=1 && vec[length(vec)]==1){#
+		vec[1:(ones[1]-1)] = two.zero.and.more(vec[1:(ones[1]-1)])#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	if(vec[1]==2 && vec[length(vec)]!=1){#
+		vec[(ones[length(ones)]+1):(length(vec))] = two.zero.and.more(vec[(ones[length(ones)]+1):(length(vec))])#
+		if(vec[length(vec)]==0){#
+		vec[1]=0#
+		vec[1:(ones[1]-1)] = two.zero.and.more(vec[1:(ones[1]-1)])#
+		vec[length(vec)]=2}#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	else{	#(vec[1]!=1 && vec[length(vec)]!=1)#
+		vec[(ones[length(ones)]+1):(length(vec))] = two.zero.and.more(vec[(ones[length(ones)]+1):(length(vec))])#
+		vec[1:(ones[1]-1)] = two.zero.and.more(vec[1:(ones[1]-1)])#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+}#
+#
+## More a vector up 1 if there is only one 1 in the vector:#
+move.up.one1 = function(vec){#
+	one = which(vec==1)#
+	if(one==1){#
+		vec[2:length(vec)] = two.zero.and.more(vec[2:length(vec)])#
+		return(vec)}#
+	if(one==length(vec)){#
+		vec[1:(length(vec)-1)] = two.zero.and.more(vec[1:(length(vec)-1)])#
+		return(vec)}#
+	if(one!=1 && one!=length(vec)){#
+		if(vec[1]==2){#
+			vec[1]=0#
+			vec[1:(one-1)] = two.zero.and.more(vec[1:(one-1)])#
+			vec[(one+1):length(vec)] = two.zero.and.more(vec[(one+1):length(vec)])#
+			if(vec[length(vec)]==0) vec[length(vec)]=2#
+		return(vec)	#
+		}#
+		else{#
+		vec[1:(one-1)] = two.zero.and.more(vec[1:(one-1)])#
+		vec[(one+1):length(vec)] = two.zero.and.more(vec[(one+1):length(vec)])#
+		return(vec)#
+		}#
+	}#
+}#
+#
+## The move up function! Given a vector, the cars move up by 1:#
+move.up = function(vec){#
+	ones = which(vec == 1)#
+	if(length(ones)==0){#
+		vec = rotvec(vec)#
+		return(vec)#
+	}#
+	if(length(ones) == 1){move.up.one1(vec)}#
+	else{move.up.more1(vec)}#
+}#
+#
+## Input a matrix and move blues up one:#
+oneUp.matrix = function(mat){#
+	li = tapply(mat,rep(1:ncol(mat),each=nrow(mat)),function(i)i)#
+	sapply(li, move.up)#
+}#
+#
+#####################################################################################
+#
+## Move Right (Red):#
+#####################################################################################
+## Switch numbers:#
+swap = function(mat){#
+	mat[which(mat==1)] <- 3#
+	mat[which(mat==2)] <- 1#
+	mat[which(mat==3)] <- 2#
+	return(mat)#
+}#
+#
+## Turn to right direction as will be plotted:#
+Turn2 = function(mat){#
+	bat = turn.mat.90left(mat)#
+	cat = turn.mat.90left(bat)#
+	return(cat)#
+}#
+#
+TurnBack2 = function(mat){#
+	bat = turn.back.90right(mat)#
+	cat = turn.back.90right(bat)#
+	return(cat)#
+}#
+#
+####################################################################################
+## Final functions:#
+#
+## Function that moves blue cars when given a matrix:#
+Blue = function(matrix){#
+	rightDirection = turn.mat.90left(matrix);rightDirection#
+	moved.up = oneUp.matrix(rightDirection)#
+	rotBack = turn.back.90right(moved.up)#
+	#class(rotBack) = "BML"#
+	#plot(rotBack)#
+	return(rotBack)#
+}#
+#
+## Function that moves red cars when given a matrix:#
+Red = function(matrix){#
+	changed.num.ratBack = swap(rotBack);changed.num.ratBack#
+	Ready2Up = Turn2(changed.num.ratBack);Ready2Up#
+	Moved.right = oneUp.matrix(Ready2Up);Moved.right#
+	Origin.Dir = TurnBack2(Moved.right); Origin.Dir#
+	ready2plot = swap(Origin.Dir)#
+	#class(ready2plot) = "BML"#
+	#plot(ready2plot)#
+	return(ready2plot)#
+}#
+#
+#
+################################################################################### Testing:#
+#
+set.seed(3232)#
+## For t=1 BLUE:#
+carPlane = gen.cars(14,19,.3)#
+plane.image(carPlane)#
+#
+rightDirection = turn.mat.90left(carPlane);rightDirection#
+moved.up = oneUp.matrix(rightDirection)#
+#
+rotBack = turn.back.90right(moved.up)#
+class(rotBack) = "BML"#
+plot(rotBack)#
+#
+#
+#
+#
+## For t=2 RED:#
+#
+# change numbers of rotBack from t=1:#
+rotBack#
+changed.num.ratBack = swap(rotBack);changed.num.ratBack#
+#
+# Rotate to ready to move up position: #
+Ready2Up = Turn2(changed.num.ratBack);Ready2Up#
+#
+# Move up (right):#
+Moved.right = oneUp.matrix(Ready2Up);Moved.right#
+#
+# Rotate back to rotBack direction:#
+Origin.Dir = TurnBack2(Moved.right); Origin.Dir#
+#
+# Change numbers back:#
+ready2plot = swap(Origin.Dir)#
+class(ready2plot) = "BML"#
+plot(ready2plot)#
+#
+#
+#
+## Function that takes in time, and alternates between blue and red car movements:#
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			#Annas[i] = #
+			plot(carPlane)#
+			#png(Annas[i])#
+			#return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			#Annas[i] = #
+			plot(carPlane)#
+			#png(Annas[i])#
+			#return(carPlane)#
+		}#
+	}#
+}#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+Anna = rep("Anna",10)#
+Anna.more = paste(Anna,1:10,sep="")
+carPlane
+class(carPlane) = BLM
+class(carPlane) = BML
+class(carPlane) = "BML"
+plot(carPlane)
+plot(Blue(carPlane))
+Blue(carPlane)
+Blue = function(matrix){#
+	rightDirection = turn.mat.90left(matrix);rightDirection#
+	moved.up = oneUp.matrix(rightDirection)#
+	rotBack = turn.back.90right(moved.up)#
+	class(rotBack) = "BML"#
+	#plot(rotBack)#
+	return(rotBack)#
+}
+## Function that moves blue cars when given a matrix:#
+Blue = function(matrix){#
+	rightDirection = turn.mat.90left(matrix);rightDirection#
+	moved.up = oneUp.matrix(rightDirection)#
+	rotBack = turn.back.90right(moved.up)#
+	#class(rotBack) = "BML"#
+	#plot(rotBack)#
+	return(rotBack)#
+}
+Drive(3,14,15,.2)
+## Function that takes in time, and alternates between blue and red car movements:#
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			Annas[i] = plot(carPlane)#
+			png(Annas[i])#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			#Annas[i] = #
+			plot(carPlane)#
+			#png(Annas[i])#
+			#return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	#Annas = rep("Anna",time)#
+	#Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			Anna = plot(carPlane)#
+			png(Anna)#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			Anna = plot(carPlane)#
+			png(Anna)#
+			return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	#Annas = rep("Anna",time)#
+	#Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			Anna = plot(carPlane)#
+			png("Anna")#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			Anna = plot(carPlane)#
+			png("Anna")#
+			return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	#Annas = rep("Anna",time)#
+	#Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			Anna = plot(carPlane)#
+			png("Anna")#
+			#return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			Anna = plot(carPlane)#
+			png("Anna")#
+			#return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	#Annas = rep("Anna",time)#
+	#Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			Annas[i] = print(plot(carPlane))#
+			png(Annas[i])#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			Annas[i] = print(plot(carPlane))#
+			png(Annas[i])#
+			return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			Annas[i] = print(plot(carPlane))#
+			png(Annas[i])#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			Annas[i] = print(plot(carPlane))#
+			png(Annas[i])#
+			return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+## Function that takes in time, and alternates between blue and red car movements:#
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			Annas[i] = print(plot(carPlane))#
+			png(Annas[i])#
+			return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+## Function that moves red cars when given a matrix:#
+Red = function(matrix){#
+	changed.num.ratBack = swap(rotBack);changed.num.ratBack#
+	Ready2Up = Turn2(changed.num.ratBack);Ready2Up#
+	Moved.right = oneUp.matrix(Ready2Up);Moved.right#
+	Origin.Dir = TurnBack2(Moved.right); Origin.Dir#
+	ready2plot = swap(Origin.Dir)#
+	#class(ready2plot) = "BML"#
+	#plot(ready2plot)#
+	return(ready2plot)#
+}
+Drive = function(time,hgrid,vgrid,rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	class(carPlane) = "BML"#
+	Anna0 = plot(carPlane)#
+	png(file = "Anna0")#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			carPlane = Blue(carPlane)#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			return(carPlane)#
+		}#
+		else{#
+			carPlane = Red(carPlane)#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			return(carPlane)#
+		}#
+	}#
+}
+Drive(3,14,15,.2)
+library(BMLpkg)
+?Blue
+?Drive
+install.packages("BMLpkg")
+library(BMLpkg)
+?Drive
+?Blue
+count = function() counter <<- coutner +1L
+count
+trace("==",quote(count()))
+?trace
+?counter
+?untrce
+?untrace
+sample(seq(0,9), 100, replace = TRUE)
+library(BMLpkg)
+?Drive
+Blue
+?Blue
+?.C
+Blue
+ls()
+getwd()
+setwd("/Users/shuhualiang/Documents/Davis MS/STA 242/C Project")
+ls()
+dyn.load("fib.so")
+## http://arxiv.org/pdf/0709.3604v3.pdf#
+## http://mae.ucdavis.edu/dsouza/bml.html#
+#
+## http://www.personality-project.org/R/makingpackages.html#
+#
+## Set.seed() before applying functions!!!!#
+#
+## Blue up, t = 1,3,... (Move first!)#
+## Red right, t = 2,4,...#
+setwd("/Users/shuhualiang/Documents/Davis MS/STA 242")#
+#
+options(error = recover)#
+library(grDevices)#
+#
+## Move Up (blue):#
+#####################################################################################
+## Generate the number of blue and red cars, then to them in a plane:#
+gen.cars = function(hor.grids, ver.grids, rho){#
+	total.grids = hor.grids*ver.grids#
+	red <- blue <- rho/2#
+	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))#
+	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)#
+}#
+#
+#class(x) = "BML"#
+plot.BML = function(x,...){#
+	image(x, col=c("white","red","blue"),axes=FALSE)#
+}#
+	## try: gen.cars(120,170,.3)#
+	## 2 -> Blue, 1 -> Red#
+#
+## Adjust directions, so matrix follows the direction of the plane:#
+turn.mat.90left = function(gen.cars){#
+	apply(gen.cars,1,rev)#
+}#
+#
+turn.back.90right = function(mat){#
+	list.back = tapply(mat,rep(1:ncol(mat),each=nrow(mat)),function(i)i)#
+	revert = lapply(list.back,rev)#
+	matrix(unlist(revert),byrow = TRUE,nrow=length(revert))#
+}#
+## For partial vectors, move up one and make the last one zero:#
+one.up = function(vec){#
+	if(length(vec) <= 1) return(vec)#
+	else c(vec[2:length(vec)],0)#
+}#
+#
+## Use when have a partial vector that comes after a 1:#
+two.zero.and.more = function(part){#
+	if(all(part==2) || length(part) <= 1) return(part)#
+	else {#
+		first.zero = min(which(part == 0))#
+		part[first.zero:length(part)] = one.up(part[first.zero:length(part)])#
+		return(part)#
+	}#
+}#
+#
+## Rotate the entire vector by one element up:#
+rot <- function(x) (1:x %% x) +1#
+rotvec <- function(vec){vec[rot(length(vec))]} #
+#
+## Operate the sequence in between two ones:#
+run.two = function(vec, ones){#
+	for(i in 1:(length(ones)-1)){#
+		if(0 %in% vec[(ones[i]):(ones[i+1])]){#
+			vec[(ones[i]+1):(ones[i+1]-1)] = two.zero.and.more(vec[(ones[i]+1):(ones[i+1]-1)])}#
+	}#
+	return(vec)#
+}#
+#
+### Move up function when there is more than one 1:#
+move.up.more1 <- function(vec){#
+	ones = which(vec==1)#
+	if(vec[1]==1 && vec[length(vec)]==1){#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	if(vec[1]==1 && vec[length(vec)]!=1){#
+		vec[(ones[length(ones)]+1):(length(vec))] = two.zero.and.more(vec[(ones[length(ones)]+1):(length(vec))])#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	if(vec[1]!=1 && vec[length(vec)]==1){#
+		vec[1:(ones[1]-1)] = two.zero.and.more(vec[1:(ones[1]-1)])#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	if(vec[1]==2 && vec[length(vec)]!=1){#
+		vec[(ones[length(ones)]+1):(length(vec))] = two.zero.and.more(vec[(ones[length(ones)]+1):(length(vec))])#
+		if(vec[length(vec)]==0){#
+		vec[1]=0#
+		vec[1:(ones[1]-1)] = two.zero.and.more(vec[1:(ones[1]-1)])#
+		vec[length(vec)]=2}#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+	else{	#(vec[1]!=1 && vec[length(vec)]!=1)#
+		vec[(ones[length(ones)]+1):(length(vec))] = two.zero.and.more(vec[(ones[length(ones)]+1):(length(vec))])#
+		vec[1:(ones[1]-1)] = two.zero.and.more(vec[1:(ones[1]-1)])#
+		vec = run.two(vec,ones)#
+		return(vec)#
+	}#
+}#
+#
+## More a vector up 1 if there is only one 1 in the vector:#
+move.up.one1 = function(vec){#
+	one = which(vec==1)#
+	if(one==1){#
+		vec[2:length(vec)] = two.zero.and.more(vec[2:length(vec)])#
+		return(vec)}#
+	if(one==length(vec)){#
+		vec[1:(length(vec)-1)] = two.zero.and.more(vec[1:(length(vec)-1)])#
+		return(vec)}#
+	if(one!=1 && one!=length(vec)){#
+		if(vec[1]==2){#
+			vec[1]=0#
+			vec[1:(one-1)] = two.zero.and.more(vec[1:(one-1)])#
+			vec[(one+1):length(vec)] = two.zero.and.more(vec[(one+1):length(vec)])#
+			if(vec[length(vec)]==0) vec[length(vec)]=2#
+		return(vec)	#
+		}#
+		else{#
+		vec[1:(one-1)] = two.zero.and.more(vec[1:(one-1)])#
+		vec[(one+1):length(vec)] = two.zero.and.more(vec[(one+1):length(vec)])#
+		return(vec)#
+		}#
+	}#
+}#
+#
+## The move up function! Given a vector, the cars move up by 1:#
+move.up = function(vec){#
+	ones = which(vec == 1)#
+	if(length(ones)==0){#
+		vec = rotvec(vec)#
+		return(vec)#
+	}#
+	if(length(ones) == 1){move.up.one1(vec)}#
+	else{move.up.more1(vec)}#
+}#
+#
+## Input a matrix and move blues up one:#
+oneUp.matrix = function(mat){#
+	li = tapply(mat,rep(1:ncol(mat),each=nrow(mat)),function(i)i)#
+	sapply(li, move.up)#
+}#
+#
+#####################################################################################
+#
+## Move Right (Red):#
+#####################################################################################
+## Switch numbers:#
+swap = function(mat){#
+	mat[which(mat==1)] <- 3#
+	mat[which(mat==2)] <- 1#
+	mat[which(mat==3)] <- 2#
+	return(mat)#
+}#
+#
+## Turn to right direction as will be plotted:#
+Turn2 = function(mat){#
+	bat = turn.mat.90left(mat)#
+	cat = turn.mat.90left(bat)#
+	return(cat)#
+}#
+#
+TurnBack2 = function(mat){#
+	bat = turn.back.90right(mat)#
+	cat = turn.back.90right(bat)#
+	return(cat)#
+}#
+#
+####################################################################################
+## Final functions:#
+#
+## Function that moves blue cars when given a matrix:#
+Blue = function(matrix){#
+	rightDirection = turn.mat.90left(matrix);rightDirection#
+	moved.up = oneUp.matrix(rightDirection)#
+	rotBack = turn.back.90right(moved.up)#
+	return(rotBack)#
+}#
+#
+## Function that moves red cars when given a matrix:#
+Red = function(matrix){#
+	changed.num.ratBack = swap(matrix);changed.num.ratBack#
+	Ready2Up = Turn2(changed.num.ratBack);Ready2Up#
+	Moved.right = oneUp.matrix(Ready2Up);Moved.right#
+	Origin.Dir = TurnBack2(Moved.right); Origin.Dir#
+	ready2plot = swap(Origin.Dir)#
+	return(ready2plot)#
+}#
+#
+## Function that takes in time, and alternates between blue and red car movements:#
+Drive = function(time,hgrid, vgrid, rho,...){#
+	carPlane = gen.cars(hgrid, vgrid, rho)#
+	#mat = carPlane#
+	class(carPlane) = "BML"#
+	png(file = "Anna0")	#
+	print(plot(carPlane))#
+	dev.off()#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	moved = c()#
+	unmoved = c()#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			plane = Blue(carPlane)#
+			moved[i] = length(which((carPlane == plane)==FALSE))#
+			unmoved[i] = hgrid*vgrid*rho - moved[i]#
+			carPlane = plane#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			dev.off()#
+		}#
+		if(i %% 2 ==0){#
+			plane = Red(carPlane)#
+			moved[i] = length(which((carPlane == plane)==FALSE))#
+			unmoved[i] = hgrid*vgrid*rho - moved[i]#
+			carPlane = plane#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			dev.off()#
+		}#
+	}#
+	par(mfrow=c(1,2))#
+	(plot(seq(time),moved,type="l",xlab = "Time",ylab="Number of Car Moves",main="Number of Car Moves at Each Time Point"))#
+	(plot(seq(time),unmoved,type="l",xlab = "Time",ylab="Number of Car Unmoves",main="Number of Car Unmoves at Each Time Point"))#
+}
+setwd("/Users/shuhualiang/Documents/Davis MS/STA 242/BML")
+?Rprof
+summaryRprof(Drive(150,130,130,.3))
+video = list.files(pattern="Anna");video
+new = paste(video,".png",sep="");new
+Rename = file.rename(video, new)
+Remove = file.remove(new)
+summaryRprof(Drive)
+Rprof(tmp <- tempfile())#
+example(glm)#
+Rprof()#
+summaryRprof(tmp)#
+unlink(tmp)
+Rprof(tmp <- tempfile())#
+example(glm)#
+Rprof()#
+summaryRprof(tmp)#
+unlink(tmp)
+?tempfile()
+Rprof(tmp <- Drive())#
+example(glm)#
+Rprof()#
+summaryRprof(tmp)#
+unlink(tmp)
+Rprof(tmp <- Drive(130,140,.3))#
+example(glm)#
+Rprof()#
+summaryRprof(tmp)#
+unlink(tmp)
+Rprof(tmp <- Drive(140,130,140,.3))#
+example(glm)#
+Rprof()#
+summaryRprof(tmp)#
+unlink(tmp)
+video = list.files(pattern="Anna");video#
+new = paste(video,".png",sep="");new#
+Rename = file.rename(video, new)
+Remove = file.remove(new)
+Rprof(Drive(130,130,130,.3))
+summaryRprof(Rprof(Drive(130,130,130,.3)))
+?summaryRprof
+video = list.files(pattern="Anna");video#
+new = paste(video,".png",sep="");new#
+Rename = file.rename(video, new)
+Remove = file.remove(new)
+Rprof(D <- Drive(130,130,130,.3))
+Rprof(D <- Drive(13,130,130,.3))
+summaryRprof(D)
+Rprof(D <- Drive())
+Rprof(D <- Drive(hgrids=130,vgrid=130,rho=.3))
+carPlane = gen.cars(130,130,.3)
+Drive = function(time,hgrid, vgrid, rho,...){#
+	#carPlane = gen.cars(hgrid, vgrid, rho)#
+	#mat = carPlane#
+	class(carPlane) = "BML"#
+	png(file = "Anna0")	#
+	print(plot(carPlane))#
+	dev.off()#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	moved = c()#
+	unmoved = c()#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			plane = Blue(carPlane)#
+			moved[i] = length(which((carPlane == plane)==FALSE))#
+			unmoved[i] = hgrid*vgrid*rho - moved[i]#
+			carPlane = plane#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			dev.off()#
+		}#
+		if(i %% 2 ==0){#
+			plane = Red(carPlane)#
+			moved[i] = length(which((carPlane == plane)==FALSE))#
+			unmoved[i] = hgrid*vgrid*rho - moved[i]#
+			carPlane = plane#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			dev.off()#
+		}#
+	}#
+	par(mfrow=c(1,2))#
+	(plot(seq(time),moved,type="l",xlab = "Time",ylab="Number of Car Moves",main="Number of Car Moves at Each Time Point"))#
+	(plot(seq(time),unmoved,type="l",xlab = "Time",ylab="Number of Car Unmoves",main="Number of Car Unmoves at Each Time Point"))#
+}
+Rprof(D <- Drive())
+Rprof(D <- Drive(13))
+Rprof(D <- Drive(13,130,130,.2))
+summaryRprof(D)
+## Function that takes in time, and alternates between blue and red car movements:#
+Drive = function(time){#
+	#carPlane = gen.cars(hgrid, vgrid, rho)#
+	#mat = carPlane#
+	class(carPlane) = "BML"#
+	png(file = "Anna0")	#
+	print(plot(carPlane))#
+	dev.off()#
+	#
+	Annas = rep("Anna",time)#
+	Annas = paste(Annas, 1:time, sep="")#
+	#
+	moved = c()#
+	unmoved = c()#
+	for(i in 1:time){#
+		if(i %% 2 !=0){#
+			plane = Blue(carPlane)#
+			moved[i] = length(which((carPlane == plane)==FALSE))#
+			unmoved[i] = hgrid*vgrid*rho - moved[i]#
+			carPlane = plane#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			dev.off()#
+		}#
+		if(i %% 2 ==0){#
+			plane = Red(carPlane)#
+			moved[i] = length(which((carPlane == plane)==FALSE))#
+			unmoved[i] = hgrid*vgrid*rho - moved[i]#
+			carPlane = plane#
+			class(carPlane) = "BML"#
+			png(Annas[i])#
+			print(plot(carPlane))#
+			dev.off()#
+		}#
+	}#
+	par(mfrow=c(1,2))#
+	(plot(seq(time),moved,type="l",xlab = "Time",ylab="Number of Car Moves",main="Number of Car Moves at Each Time Point"))#
+	(plot(seq(time),unmoved,type="l",xlab = "Time",ylab="Number of Car Unmoves",main="Number of Car Unmoves at Each Time Point"))#
+}
+Rprof(D <- Drive(13,130,130,.2))
+Rprof(D <- Drive(13))

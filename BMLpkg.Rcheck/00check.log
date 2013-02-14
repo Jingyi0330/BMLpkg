@@ -1,0 +1,69 @@
+* using log directory ‘/Users/shuhualiang/Documents/Davis MS/STA 242/BMLpkg.Rcheck’
+* using R version 2.14.1 (2011-12-22)
+* using platform: x86_64-apple-darwin9.8.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘BMLpkg/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘BMLpkg’ version ‘1.0.0’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking whether package ‘BMLpkg’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... WARNING
+prepare_Rd: Blue.Rd:19-21: Dropping empty section \details
+prepare_Rd: Blue.Rd:22-28: Dropping empty section \value
+prepare_Rd: Blue.Rd:35-37: Dropping empty section \note
+prepare_Rd: Blue.Rd:29-31: Dropping empty section \references
+prepare_Rd: Drive.Rd:7-9: Dropping empty section \description
+prepare_Rd: Drive.Rd:31-33: Dropping empty section \details
+prepare_Rd: Drive.Rd:34-40: Dropping empty section \value
+prepare_Rd: Drive.Rd:47-49: Dropping empty section \note
+prepare_Rd: Drive.Rd:41-43: Dropping empty section \references
+prepare_Rd: Drive.Rd:53-55: Dropping empty section \seealso
+checkRd: (5) Drive.Rd:0-63: Must have a \description
+prepare_Rd: Red.Rd:19-21: Dropping empty section \details
+prepare_Rd: Red.Rd:22-28: Dropping empty section \value
+prepare_Rd: Red.Rd:35-37: Dropping empty section \note
+prepare_Rd: Red.Rd:29-31: Dropping empty section \references
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented data sets:
+  ‘GIF’ ‘Remove’ ‘Rename’ ‘new’ ‘video’
+All user-level objects in a package should have documentation entries.
+See the chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+WARNING: There were 2 warnings, see
+  ‘/Users/shuhualiang/Documents/Davis MS/STA 242/BMLpkg.Rcheck/00check.log’
+for details
