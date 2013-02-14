@@ -1,5 +1,6 @@
 one.up <-
 function(vec){
-	if(length(vec) <= 1) return(vec)
-	else c(vec[2:length(vec)],0)
+	vec_len = length(vec)
+	out <- .C("oneUp", vec = as.integer(vec), vec_len = as.integer(vec_len))
+	out$vec
 }

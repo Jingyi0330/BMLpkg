@@ -20,6 +20,7 @@ gen.cars = function(hor.grids, ver.grids, rho){
 	red <- blue <- rho/2
 	gen = sample(0:2, size=total.grids, replace=TRUE, prob=c((1-rho), red, blue))
 	plane = matrix(gen, nrow=ver.grids, ncol=hor.grids)
+	return(plane)
 }
 
 #class(x) = "BML"
@@ -269,4 +270,21 @@ mylist = c(
 "Remove")
 
 package.skeleton("BMLpkg", mylist, environment = .GlobalEnv, path = ".", force = TRUE)
+
+########################################################################################
+one.up = function(vec){
+	vec_len = length(vec)
+	out <- .C("oneUp", vec = as.integer(vec), vec_len = as.integer(vec_len))
+	out$vec
+}
+
+two.zero.and.more = function(vec){
+	vec_len = length(vec)
+	out <- .C("twoZeroAndMore", vec = as.integer(vec), vec_len = as.integer(vec_len))
+	out$vec
+}
+
+
+
+
 

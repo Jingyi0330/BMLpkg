@@ -1,4 +1,12 @@
 * installing *source* package ‘BMLpkg’ ...
+** libs
+*** arch - i386
+gcc -arch i386 -std=gnu99 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/usr/local/lib -o BMLpkg.so one.up.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+ld: warning: ignoring file one.up.o, file was built for unsupported file format ( 0xcf 0xfa 0xed 0xfe 0x 7 0x 0 0x 0 0x 1 0x 3 0x 0 0x 0 0x 0 0x 1 0x 0 0x 0 0x 0 ) which is not the architecture being linked (i386): one.up.o
+installing to /Users/shuhualiang/Documents/Davis MS/STA 242/BML/BMLpkg.Rcheck/BMLpkg/libs/i386
+*** arch - x86_64
+gcc -arch x86_64 -std=gnu99 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/usr/local/lib -o BMLpkg.so one.up.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+installing to /Users/shuhualiang/Documents/Davis MS/STA 242/BML/BMLpkg.Rcheck/BMLpkg/libs/x86_64
 ** R
 ** data
 ** preparing package for lazy loading
@@ -6,5 +14,7 @@
 *** installing help indices
 ** building package indices ...
 ** testing if installed package can be loaded
+*** arch - i386
+*** arch - x86_64
 
 * DONE (BMLpkg)
